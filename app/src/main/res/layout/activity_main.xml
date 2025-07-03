@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etChineseName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入中文名"
+        android:inputType="text"
+        android:padding="12dp"
+        android:background="@drawable/rounded_edittext_background"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGetName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取名字"
+        android:background="@drawable/rounded_button_background"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnOnlineQuery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="联网查询"
+        android:background="@drawable/rounded_button_background"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/tvPinyinName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvWadeGilesName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:id="@+id/tvEnglishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="8dp"
+        android:layout_marginBottom="8dp"/>
+
+</LinearLayout> 
