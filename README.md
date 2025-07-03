@@ -26,7 +26,8 @@
 
 1. **本地转换**
    - 输入中文姓名
-   - 点击"获取英文名"按钮
+   - 点击"获取名字"按钮
+   - 如果名字不满意，可以再次点击"获取名字"按钮，刷新名字
    - 查看转换结果，包括：
      * 拼音
      * 威妥玛拼音
@@ -56,6 +57,9 @@
 输入：王华
 输出：Wonder Splendid (Wang Hua) - 王华
 ```
+
+<img width="402" alt="image" src="https://github.com/user-attachments/assets/4c688aab-691d-45fe-8048-8e30c1ed43eb" />
+
 
 ## 技术特点
 
